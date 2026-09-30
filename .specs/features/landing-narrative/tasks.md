@@ -21,7 +21,7 @@
 
 ### T2 — Build services and problems module
 
-**Status**: Pending  
+**Status**: Done  
 **What**: Create the capability/problem section including complementary marketing support.  
 **Where**: `components/solutions-section.tsx`, `app/globals.css`  
 **Depends on**: T1  
@@ -104,4 +104,3 @@
 | T4 | One semantic module | ✅ |
 | T5 | One semantic module | ✅ |
 | T6 | One integration/review task | ✅ |
-

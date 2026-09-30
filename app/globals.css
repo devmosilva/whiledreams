@@ -42,6 +42,236 @@ a {
   text-underline-offset: 0.22em;
 }
 
+.narrative-section {
+  padding: clamp(6rem, 10vw, 10rem) clamp(1.25rem, 4.3vw, 4.5rem);
+}
+
+.section-intro {
+  display: grid;
+  max-width: 1500px;
+  grid-template-columns: minmax(0, 1.25fr) minmax(280px, 0.75fr);
+  align-items: end;
+  gap: clamp(2rem, 8vw, 9rem);
+  margin: 0 auto clamp(4rem, 7vw, 7rem);
+}
+
+.section-intro h2,
+.problem-copy h2 {
+  max-width: 13ch;
+  margin: 0;
+  font-size: clamp(3rem, 5.4vw, 6rem);
+  letter-spacing: -0.04em;
+  line-height: 0.94;
+}
+
+.section-intro p,
+.problem-copy > p {
+  max-width: 55ch;
+  margin: 0;
+  color: var(--muted);
+  font-size: clamp(1.1rem, 1.4vw, 1.4rem);
+  line-height: 1.55;
+}
+
+.solutions-section {
+  position: relative;
+  background: #fff;
+}
+
+.capability-ledger {
+  max-width: 1500px;
+  margin: 0 auto;
+  border-bottom: 1px solid var(--line);
+}
+
+.capability-row {
+  display: grid;
+  min-height: 170px;
+  grid-template-columns: minmax(260px, 0.9fr) minmax(320px, 1.1fr) minmax(220px, 0.65fr);
+  align-items: center;
+  gap: clamp(2rem, 5vw, 6rem);
+  border-top: 1px solid var(--line);
+}
+
+.capability-title {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.capability-title svg {
+  flex: 0 0 auto;
+  color: var(--violet);
+}
+
+.capability-title h3 {
+  margin: 0;
+  font-size: clamp(1.65rem, 2.35vw, 2.6rem);
+  letter-spacing: -0.03em;
+  line-height: 1;
+}
+
+.capability-row > p {
+  max-width: 52ch;
+  margin: 0;
+  color: var(--muted);
+  font-size: 1.08rem;
+  line-height: 1.55;
+}
+
+.capability-row > strong {
+  max-width: 25ch;
+  color: var(--ink);
+  font-size: 0.82rem;
+  letter-spacing: 0.13em;
+  line-height: 1.55;
+  text-transform: uppercase;
+}
+
+.problem-field {
+  display: grid;
+  max-width: 1500px;
+  grid-template-columns: minmax(0, 0.9fr) minmax(380px, 1.1fr);
+  gap: clamp(3rem, 9vw, 10rem);
+  margin: clamp(7rem, 11vw, 11rem) auto 0;
+  padding: clamp(3rem, 6vw, 6rem);
+  border-radius: 16px;
+  background: var(--ink);
+  color: #fff;
+}
+
+.problem-copy {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.problem-copy h2 {
+  max-width: 12ch;
+  font-size: clamp(2.8rem, 4.8vw, 5.5rem);
+}
+
+.problem-copy > p {
+  margin-top: 2rem;
+  color: #c5ccda;
+}
+
+.problem-cta {
+  margin-top: auto;
+  border-color: rgba(255, 255, 255, 0.48);
+  background: #fff;
+  color: var(--ink);
+}
+
+.problem-cta:hover {
+  background: var(--violet);
+  color: #fff;
+}
+
+.problem-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.problem-list li {
+  position: relative;
+  padding: 1.25rem 0 1.25rem 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+  color: #f0f2f7;
+  font-size: clamp(1.05rem, 1.35vw, 1.35rem);
+  line-height: 1.35;
+}
+
+.problem-list li::before {
+  position: absolute;
+  top: 1.75rem;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--violet);
+  content: "";
+}
+
+.marketing-note {
+  display: grid;
+  max-width: 1500px;
+  grid-template-columns: minmax(250px, 0.7fr) minmax(0, 1.3fr);
+  gap: clamp(2rem, 8vw, 9rem);
+  margin: 0 auto;
+  padding: 2.5rem 0 0;
+}
+
+.marketing-note strong {
+  font-size: 1.2rem;
+}
+
+.marketing-note p {
+  max-width: 68ch;
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+  .section-intro,
+  .marketing-note {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .capability-row {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem 2rem;
+    padding: 2.25rem 0;
+  }
+
+  .capability-row > strong {
+    grid-column: 2;
+  }
+
+  .problem-field {
+    grid-template-columns: 1fr;
+  }
+
+  .problem-cta {
+    margin-top: 2.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .narrative-section {
+    padding-block: 5rem;
+  }
+
+  .section-intro {
+    margin-bottom: 3.5rem;
+  }
+
+  .section-intro h2,
+  .problem-copy h2 {
+    font-size: clamp(2.7rem, 13vw, 3.5rem);
+  }
+
+  .capability-row {
+    grid-template-columns: 1fr;
+  }
+
+  .capability-row > strong {
+    grid-column: auto;
+  }
+
+  .problem-field {
+    margin-top: 5rem;
+    padding: 2rem 1.25rem;
+  }
+
+  .problem-cta {
+    width: 100%;
+  }
+}
+
 .hero {
   position: relative;
   min-height: min(941px, 100svh);
