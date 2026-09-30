@@ -54,7 +54,7 @@
 
 ### T5 — Build differentiators and story module
 
-**Status**: Pending  
+**Status**: Done  
 **What**: Create the positioning principles and brand-origin close.  
 **Where**: `components/about-section.tsx`, `app/globals.css`  
 **Depends on**: T4  

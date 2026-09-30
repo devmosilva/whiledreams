@@ -394,6 +394,180 @@ a {
   .project-definition div { grid-template-columns: 1fr; gap: 0.5rem; }
 }
 
+.about-section {
+  background: var(--paper);
+}
+
+.why-section {
+  display: grid;
+  max-width: 1640px;
+  grid-template-columns: minmax(320px, 0.8fr) minmax(0, 1.2fr);
+  gap: clamp(4rem, 10vw, 12rem);
+  margin: 0 auto;
+}
+
+.why-heading {
+  align-self: start;
+  position: sticky;
+  top: 3rem;
+}
+
+.why-heading h2,
+.brand-story-copy h2 {
+  max-width: 11ch;
+  margin: 0;
+  font-size: clamp(3rem, 5.4vw, 6rem);
+  letter-spacing: -0.04em;
+  line-height: 0.94;
+}
+
+.why-heading > p {
+  max-width: 48ch;
+  margin: 2.25rem 0 0;
+  color: var(--muted);
+  font-size: 1.15rem;
+  line-height: 1.6;
+}
+
+.differentiator-list {
+  border-top: 1px solid var(--line);
+}
+
+.differentiator-list article {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.75fr) minmax(0, 1.25fr);
+  gap: 2rem;
+  padding: 2.5rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.differentiator-list h3 {
+  margin: 0;
+  font-size: clamp(1.35rem, 2vw, 2.1rem);
+  letter-spacing: -0.025em;
+  line-height: 1.05;
+}
+
+.differentiator-list p {
+  max-width: 50ch;
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.brand-story {
+  display: grid;
+  grid-template-columns: minmax(300px, 0.82fr) minmax(0, 1.18fr);
+  align-items: center;
+  gap: clamp(3rem, 10vw, 12rem);
+  padding: clamp(5rem, 10vw, 10rem) clamp(1.25rem, 8vw, 9rem);
+  overflow: hidden;
+  background: var(--violet);
+  color: #fff;
+}
+
+.brand-story-token {
+  position: relative;
+  display: flex;
+  min-height: 420px;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-story-token span {
+  position: relative;
+  z-index: 2;
+  font-family: "Lexend Giga", sans-serif;
+  font-size: clamp(4rem, 9vw, 10rem);
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+.brand-story-token i {
+  position: absolute;
+  width: min(34vw, 470px);
+  aspect-ratio: 1;
+  border: clamp(24px, 3vw, 46px) solid rgba(255, 255, 255, 0.14);
+  border-radius: 50%;
+}
+
+.brand-story-copy h2 {
+  color: #fff;
+}
+
+.brand-story-copy > p {
+  max-width: 60ch;
+  margin: 2rem 0 0;
+  color: #e4e1ff;
+  font-size: clamp(1.08rem, 1.4vw, 1.35rem);
+  line-height: 1.6;
+}
+
+.brand-story-copy code {
+  padding: 0.1em 0.32em;
+  border-radius: 4px;
+  background: rgba(10, 22, 43, 0.32);
+  color: #fff;
+  font-family: inherit;
+  font-weight: 700;
+}
+
+.brand-story-copy > strong {
+  display: block;
+  max-width: 42ch;
+  margin-top: 2.5rem;
+  font-size: 1.15rem;
+}
+
+.brand-story-cta {
+  margin-top: 3rem;
+  background: #fff;
+  color: var(--ink);
+}
+
+.brand-story-cta:hover {
+  background: var(--ink);
+  color: #fff;
+}
+
+@media (max-width: 900px) {
+  .why-section,
+  .brand-story {
+    grid-template-columns: 1fr;
+  }
+
+  .why-heading {
+    position: static;
+  }
+
+  .brand-story-token {
+    min-height: 250px;
+  }
+
+  .brand-story-token i {
+    width: min(70vw, 360px);
+  }
+}
+
+@media (max-width: 600px) {
+  .differentiator-list article {
+    grid-template-columns: 1fr;
+    gap: 0.9rem;
+  }
+
+  .brand-story {
+    padding-block: 5rem;
+  }
+
+  .brand-story-token {
+    min-height: 190px;
+  }
+
+  .brand-story-cta {
+    width: 100%;
+  }
+}
+
 @media (max-width: 600px) {
   .narrative-section {
     padding-block: 5rem;
