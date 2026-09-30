@@ -17,7 +17,6 @@
 
 ## Blockers
 
-- A pasta atual não contém `.git`; commits atômicos não estão disponíveis.
 - Credenciais do Resend e PostHog ainda dependem de variáveis de ambiente.
 - O build Turbopack passou antes do ajuste final do cabeçalho, mas as tentativas finais falharam no ambiente ao criar o processo interno do PostCSS (`binding to a port: EPERM`). `typecheck` e lint continuam verdes; o fallback Webpack do Next 16 falha ao interpretar o `--showConfig` do TypeScript 6.
 
