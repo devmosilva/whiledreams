@@ -32,7 +32,7 @@
 
 ### T3 — Build process module
 
-**Status**: Pending  
+**Status**: Done  
 **What**: Create the ordered five-step continuous delivery path.  
 **Where**: `components/process-section.tsx`, `app/globals.css`  
 **Depends on**: T2  

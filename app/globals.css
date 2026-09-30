@@ -272,6 +272,118 @@ a {
   }
 }
 
+.process-section {
+  overflow: hidden;
+  background: var(--paper);
+}
+
+.process-intro h2 {
+  color: var(--violet);
+}
+
+.process-route {
+  position: relative;
+  display: grid;
+  max-width: 1500px;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.process-route::before {
+  position: absolute;
+  z-index: 0;
+  top: 76px;
+  right: 9%;
+  left: 9%;
+  height: 12px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #8175ff, var(--violet) 48%, var(--violet-deep));
+  content: "";
+}
+
+.process-route li {
+  position: relative;
+  z-index: 1;
+  min-height: 360px;
+  padding: 0 clamp(1rem, 2.5vw, 2.5rem);
+}
+
+.process-index {
+  display: block;
+  color: #a3a5ae;
+  font-size: 0.8rem;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.16em;
+}
+
+.process-node {
+  width: 32px;
+  height: 32px;
+  margin: 2.35rem 0 3.5rem;
+  border: 7px solid var(--paper);
+  border-radius: 50%;
+  background: var(--violet);
+  box-shadow: 0 12px 28px rgba(56, 44, 193, 0.2);
+}
+
+.process-copy h3 {
+  margin: 0;
+  font-size: clamp(1.75rem, 2.4vw, 2.7rem);
+  letter-spacing: -0.03em;
+  line-height: 1;
+}
+
+.process-copy p {
+  max-width: 27ch;
+  margin: 1.15rem 0 0;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+@media (max-width: 900px) {
+  .process-route {
+    grid-template-columns: 1fr;
+    padding-left: 2rem;
+  }
+
+  .process-route::before {
+    top: 1.5rem;
+    bottom: 2rem;
+    left: 2.55rem;
+    width: 8px;
+    height: auto;
+  }
+
+  .process-route li {
+    display: grid;
+    min-height: 0;
+    grid-template-columns: 50px 1fr;
+    gap: 0 1.5rem;
+    padding: 0 0 3.75rem;
+  }
+
+  .process-index {
+    grid-column: 2;
+  }
+
+  .process-node {
+    grid-row: 1 / span 2;
+    margin: 1.15rem 0 0 -0.85rem;
+  }
+
+  .process-copy {
+    grid-column: 2;
+  }
+
+  .process-copy p {
+    max-width: 48ch;
+  }
+}
+
 .hero {
   position: relative;
   min-height: min(941px, 100svh);
