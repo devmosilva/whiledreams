@@ -1,0 +1,23 @@
+{
+  "regions": [
+    {"id": "nav-brand", "kind": "chrome", "grid": "A0:C0", "note": "símbolo plano azul-violeta e wordmark While Dreams alinhados à esquerda"},
+    {"id": "nav-links", "kind": "text", "grid": "D0:H0", "note": "links Soluções, Projetos, Como trabalhamos e Sobre em uma linha"},
+    {"id": "nav-cta", "kind": "control", "grid": "I0:J0", "note": "botão azul-marinho Conte sua ideia com seta"},
+    {"id": "headline-transform", "kind": "text", "grid": "A2:F3", "note": "primeira linha monumental Transformamos em azul-marinho"},
+    {"id": "headline-ideas", "kind": "text", "grid": "A3:D4", "note": "segunda linha monumental ideias em em azul-marinho"},
+    {"id": "headline-tech", "kind": "text", "grid": "A4:D5", "note": "terceira linha monumental tecnologia em violeta"},
+    {"id": "hero-subhead", "kind": "text", "grid": "A6:D6", "note": "subheadline cinza em três linhas explicando sites, sistemas, automações e IA"},
+    {"id": "hero-primary", "kind": "control", "grid": "A7:B7", "note": "botão azul-marinho Conte sua ideia"},
+    {"id": "hero-secondary", "kind": "control", "grid": "C7:E7", "note": "botão branco contornado Conheça nossas soluções"},
+    {"id": "hero-proof", "kind": "text", "grid": "A8:D8", "note": "linha editorial Estratégia, Produto e Tecnologia com separadores"},
+    {"id": "loop-core", "kind": "chrome", "grid": "E4:H6", "note": "símbolo plano em fita azul-violeta formando o loop central da marca"},
+    {"id": "branch-sites", "kind": "chrome", "grid": "G2:I3", "note": "ramificação superior violeta com ponto terminal e ícone simples de site"},
+    {"id": "sites-copy", "kind": "text", "grid": "I2:J2", "note": "título Sites e frase Presença que gera resultados"},
+    {"id": "branch-systems", "kind": "chrome", "grid": "G4:I4", "note": "ramificação central violeta com ponto terminal e ícone simples de sistema"},
+    {"id": "systems-copy", "kind": "text", "grid": "I4:J4", "note": "título Sistemas e frase Soluções feitas para o seu negócio"},
+    {"id": "branch-automation", "kind": "chrome", "grid": "G5:I6", "note": "ramificação violeta com ponto terminal e ícone simples de automação"},
+    {"id": "automation-copy", "kind": "text", "grid": "I6:J6", "note": "título Automação e frase Processos que trabalham por você"},
+    {"id": "branch-ai", "kind": "chrome", "grid": "G6:I8", "note": "ramificação inferior violeta com ponto terminal e ícone simples de inteligência artificial"},
+    {"id": "ai-copy", "kind": "text", "grid": "I7:J8", "note": "título IA aplicada e frase Inteligência para decisões reais"}
+  ]
+}

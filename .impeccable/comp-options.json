@@ -1,0 +1,39 @@
+{
+  "title": "Escolha a composição do Loop Essencial",
+  "question": "Qual estrutura deve orientar a primeira tela da landing page?",
+  "options": [
+    {
+      "id": "comp-a",
+      "label": "Símbolo modular",
+      "kicker": "ESCOLHA INICIAL",
+      "thesis": "O símbolo domina o centro-direita e se ramifica diretamente nas quatro soluções.",
+      "palette": ["#FFFFFF", "#10172E", "#7057E8", "#252730"],
+      "materials": ["papel branco", "fita plana", "módulos conectados"],
+      "viewport": "Hero clássico assimétrico com headline à esquerda e arquitetura de serviços à direita.",
+      "risk": "A composição é a mais clara, mas também a mais próxima de um hero convencional.",
+      "comp": ".impeccable/mocks/loop-essential-a.webp"
+    },
+    {
+      "id": "comp-b",
+      "label": "Eixo vertical",
+      "thesis": "A fita vira uma coluna contínua e os serviços funcionam como um índice conectado.",
+      "palette": ["#FFFFFF", "#10172E", "#7057E8", "#252730"],
+      "materials": ["papel branco", "fita vertical", "linhas de índice"],
+      "viewport": "Navegação lateral, headline central e serviços alinhados ao eixo da marca.",
+      "risk": "A navegação lateral exige uma adaptação mais profunda no mobile.",
+      "comp": ".impeccable/mocks/loop-essential-b.webp"
+    },
+    {
+      "id": "comp-c",
+      "label": "Rota panorâmica",
+      "thesis": "Uma única fita atravessa a tela e transforma os serviços em estações de uma mesma jornada.",
+      "palette": ["#FFFFFF", "#10172E", "#7057E8", "#252730"],
+      "materials": ["papel branco", "fita horizontal", "marcadores de percurso"],
+      "viewport": "Headline ampla no alto e percurso de serviços ocupando toda a metade inferior.",
+      "risk": "A narrativa horizontal precisa ser reordenada com cuidado em telas estreitas.",
+      "comp": ".impeccable/mocks/loop-essential-c.webp"
+    }
+  ],
+  "buildPath": {"value": "comp", "toggle": false},
+  "steer": false
+}

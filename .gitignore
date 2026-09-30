@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Next.js output
+.next/
+out/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Environment files
+.env*
+!.env.example
+
+# Local tooling output
+.impeccable/questions/
+.impeccable/review/
+
+# Editor and OS files
+.DS_Store
+*.swp

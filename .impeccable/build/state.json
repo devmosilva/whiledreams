@@ -1,0 +1,432 @@
+{
+  "tool": "build-phase",
+  "version": 2,
+  "startedAt": "2026-09-30T15:26:16.087Z",
+  "comp": ".impeccable/mocks/loop-essential-a.webp",
+  "direction": "52cbb4f7",
+  "breakpoint": "1672x941",
+  "artifact": null,
+  "phase": "hero",
+  "phases": {
+    "comps": {
+      "status": "closed",
+      "openedAt": "2026-09-30T15:26:16.067Z",
+      "closedAt": "2026-09-30T17:41:22.716Z",
+      "attempts": 2,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "3 comps, 1 approved",
+        "approved": ".impeccable/mocks/loop-essential-a.webp",
+        "at": "2026-09-30T17:41:22.716Z"
+      },
+      "forced": null
+    },
+    "spec": {
+      "status": "closed",
+      "openedAt": "2026-09-30T17:41:22.969Z",
+      "closedAt": "2026-09-30T17:45:52.335Z",
+      "attempts": 2,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "19 regions, 0 plates, 10 text regions measured",
+        "at": "2026-09-30T17:45:52.335Z"
+      },
+      "forced": null
+    },
+    "plates": {
+      "status": "closed",
+      "openedAt": "2026-09-30T17:45:52.335Z",
+      "closedAt": "2026-09-30T17:46:04.451Z",
+      "attempts": 1,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "no plates owed",
+        "at": "2026-09-30T17:46:04.451Z"
+      },
+      "forced": null
+    },
+    "hero": {
+      "status": "open",
+      "openedAt": "2026-09-30T17:46:04.451Z",
+      "closedAt": null,
+      "attempts": 7,
+      "notes": [],
+      "gate": {
+        "ok": false,
+        "reasons": [
+          "region nav-links is missing (detail 0%, structure 51%): the comp shows material the build does not",
+          "region nav-cta is missing (detail 1%, structure 62%): the comp shows material the build does not",
+          "region hero-primary is missing (detail 2%, structure 76%): the comp shows material the build does not",
+          "region hero-secondary is missing (detail 0%, structure 50%): the comp shows material the build does not",
+          "region hero-proof is missing (detail 0%, structure 58%): the comp shows material the build does not",
+          "region automation-copy (text) is contradicted (structure 40%, detail added 17%): the composition of this text region differs from the comp; re-derive it from the spec box"
+        ],
+        "summary": "hero 78% (drift)",
+        "score": 0.7755,
+        "verdict": "drift",
+        "report": ".impeccable/review/diff/hero/report.json",
+        "sideBySide": "/home/matheus/study/whileDreams/.impeccable/review/diff/hero/side-by-side.png",
+        "worst": [
+          "branch-systems contradicted 46%",
+          "automation-copy contradicted 46%",
+          "loop-core contradicted 48%"
+        ],
+        "worstIds": [
+          "branch-systems",
+          "automation-copy",
+          "loop-core"
+        ],
+        "worstCrops": [
+          {
+            "id": "branch-systems",
+            "verdict": "contradicted",
+            "score": {
+              "overall": 0.4571,
+              "structure": 0.4796,
+              "color": 0.8076,
+              "colorIntersection": 0.6509,
+              "paletteMatch": 0.8919,
+              "detail": 0.3493,
+              "detailRaw": 0.4431,
+              "detailAdded": 0.1875,
+              "bands": 0
+            },
+            "file": ".impeccable/review/diff/hero/regions/branch-systems.png"
+          },
+          {
+            "id": "automation-copy",
+            "verdict": "contradicted",
+            "score": {
+              "overall": 0.4576,
+              "structure": 0.3978,
+              "color": 0.7769,
+              "colorIntersection": 0.6345,
+              "paletteMatch": 0.8536,
+              "detail": 0.1509,
+              "detailRaw": 0.2342,
+              "detailAdded": 0.1667,
+              "bands": 0.4182
+            },
+            "file": ".impeccable/review/diff/hero/regions/automation-copy.png"
+          },
+          {
+            "id": "loop-core",
+            "verdict": "contradicted",
+            "score": {
+              "overall": 0.4792,
+              "structure": 0.4247,
+              "color": 0.8402,
+              "colorIntersection": 0.7584,
+              "paletteMatch": 0.8842,
+              "detail": 0.2818,
+              "detailRaw": 0.3964,
+              "detailAdded": 0.2292,
+              "bands": 0.3333
+            },
+            "file": ".impeccable/review/diff/hero/regions/loop-core.png"
+          }
+        ],
+        "advisories": [
+          "(advisory, above the 72% bar; fix in the polish pass before responsive) 4 readings:",
+          "  text automation-copy: the face renders 29% heavier than the comp's (ink density 0.69 vs 0.53); drop a weight step or use the ranked face",
+          "  text hero-proof: ink is #081828 in the build, #f8f8f8 in the comp; use the comp's colour",
+          "  text systems-copy: ink is #091829 in the build, #aaacb1 in the comp; use the comp's colour",
+          "  control hero-secondary: its rule sits 10px into the box in the comp and 3px in the build (-7px), so the strip is shorter than the comp's; match the height, not only the position",
+          "(advisory, unchanged for 3+ attempts) text nav-links: cap height 8.2px in the build, 14.7px in the comp (-44%); set font-size so the cap height renders at 14.7px",
+          "(advisory, unchanged for 3+ attempts) text hero-subhead: 3 lines in the build, 2 in the comp; the measure (max-width, font-size, letter-spacing) wraps it differently, so the block is a different shape",
+          "(advisory, unchanged for 3+ attempts) text headline-ideas: the face renders 40% lighter than the comp's (ink density 0.54 vs 0.89); raise a weight step or use the ranked face",
+          "(advisory, unchanged for 3+ attempts) text ai-copy: the face renders 31% lighter than the comp's (ink density 0.61 vs 0.89); raise a weight step or use the ranked face"
+        ],
+        "regionVerdicts": {
+          "nav-brand": "drift",
+          "nav-links": "missing",
+          "nav-cta": "missing",
+          "headline-transform": "drift",
+          "headline-ideas": "drift",
+          "headline-tech": "drift",
+          "hero-subhead": "drift",
+          "hero-primary": "missing",
+          "hero-secondary": "missing",
+          "hero-proof": "missing",
+          "loop-core": "contradicted",
+          "branch-sites": "drift",
+          "sites-copy": "drift",
+          "branch-systems": "contradicted",
+          "systems-copy": "drift",
+          "branch-automation": "contradicted",
+          "automation-copy": "contradicted",
+          "branch-ai": "drift",
+          "ai-copy": "drift"
+        },
+        "at": "2026-09-30T19:15:21.734Z"
+      },
+      "forced": null,
+      "readingsSeen": {
+        "text nav-links: cap height 8.2px in the build, 14.7px in the comp (-44%); set font-size so the cap height renders at 14.7px": 4,
+        "text headline-transform: letter-spacing is wider than the comp's (gap 0.258 vs 0.035 of the cap height); set letter-spacing to close it by about 19px": 1,
+        "text hero-subhead: 1 line in the build, 2 in the comp; the measure (max-width, font-size, letter-spacing) wraps it differently, so the block is a different shape": 1,
+        "text headline-transform: the face renders 46% heavier than the comp's (ink density 0.77 vs 0.53); drop a weight step or use the ranked face": 1,
+        "text ai-copy: the face renders 28% lighter than the comp's (ink density 0.64 vs 0.89); raise a weight step or use the ranked face": 1,
+        "text sites-copy: ink is #0a1829 in the build, #9d9ea2 in the comp; use the comp's colour": 1,
+        "text systems-copy: ink is #09182a in the build, #aaacb1 in the comp; use the comp's colour": 1,
+        "text hero-subhead: its first line starts 36px lower than in the comp (44px vs 8px into the region box); the spacing above it is too large": 1,
+        "text systems-copy: its first line starts 15px lower than in the comp (20px vs 5px into the region box); the spacing above it is too large": 1,
+        "control nav-cta: its rule sits 10px into the box in the comp and 2px in the build (-8px), so the strip is shorter than the comp's; match the height, not only the position": 4,
+        "control hero-primary: its rule sits 6px into the box in the comp and 17px in the build (+11px), so the strip is taller than the comp's; match the height, not only the position": 1,
+        "text nav-links: cap height 7.2px in the build, 14.7px in the comp (-51%); set font-size so the cap height renders at 14.7px": 3,
+        "text systems-copy: cap height 14px in the build, 21.3px in the comp (-34%); set font-size so the cap height renders at 21.3px": 3,
+        "text automation-copy: cap height 14px in the build, 20.7px in the comp (-32%); set font-size so the cap height renders at 20.7px": 3,
+        "text headline-ideas: the face renders 40% lighter than the comp's (ink density 0.54 vs 0.89); raise a weight step or use the ranked face": 7,
+        "text headline-tech: the face renders 35% lighter than the comp's (ink density 0.50 vs 0.77); raise a weight step or use the ranked face": 1,
+        "text ai-copy: the face renders 31% lighter than the comp's (ink density 0.61 vs 0.89); raise a weight step or use the ranked face": 6,
+        "text hero-proof: ink is #081828 in the build, #f8f8f8 in the comp; use the comp's colour": 2,
+        "text systems-copy: ink is #0b1829 in the build, #aaacb1 in the comp; use the comp's colour": 3,
+        "text systems-copy: its first line starts 22px lower than in the comp (27px vs 5px into the region box); the spacing above it is too large": 3,
+        "control hero-secondary: its rule sits 10px into the box in the comp and 3px in the build (-7px), so the strip is shorter than the comp's; match the height, not only the position": 2,
+        "text hero-subhead: 3 lines in the build, 2 in the comp; the measure (max-width, font-size, letter-spacing) wraps it differently, so the block is a different shape": 6,
+        "text systems-copy: cap height 16px in the build, 21.3px in the comp (-25%); set font-size so the cap height renders at 21.3px": 1,
+        "text ai-copy: the face renders 34% lighter than the comp's (ink density 0.58 vs 0.89); raise a weight step or use the ranked face": 1,
+        "text systems-copy: ink is #091828 in the build, #aaacb1 in the comp; use the comp's colour": 1,
+        "text systems-copy: its first line starts 17px lower than in the comp (22px vs 5px into the region box); the spacing above it is too large": 1,
+        "control hero-primary: its rule sits 6px into the box in the comp and 37px in the build (+31px), so the strip is taller than the comp's; match the height, not only the position": 1,
+        "text automation-copy: the face renders 29% heavier than the comp's (ink density 0.69 vs 0.53); drop a weight step or use the ranked face": 3,
+        "text systems-copy: ink is #091829 in the build, #aaacb1 in the comp; use the comp's colour": 3,
+        "text hero-proof: ink is #a88898 in the build, #f8f8f8 in the comp; use the comp's colour": 1,
+        "control hero-primary: its rule sits 6px into the box in the comp and 44px in the build (+38px), so the strip is taller than the comp's; match the height, not only the position": 1
+      },
+      "records": 1,
+      "history": [
+        {
+          "at": "2026-09-30T19:10:01.622Z",
+          "score": 0.794,
+          "worstIds": [
+            "hero-proof",
+            "branch-systems",
+            "loop-core"
+          ],
+          "regionVerdicts": {
+            "nav-brand": "drift",
+            "nav-links": "missing",
+            "nav-cta": "missing",
+            "headline-transform": "drift",
+            "headline-ideas": "drift",
+            "headline-tech": "drift",
+            "hero-subhead": "drift",
+            "hero-primary": "missing",
+            "hero-secondary": "missing",
+            "hero-proof": "missing",
+            "loop-core": "contradicted",
+            "branch-sites": "drift",
+            "sites-copy": "missing",
+            "branch-systems": "contradicted",
+            "systems-copy": "missing",
+            "branch-automation": "drift",
+            "automation-copy": "drift",
+            "branch-ai": "drift",
+            "ai-copy": "drift"
+          },
+          "artifactHash": null
+        },
+        {
+          "at": "2026-09-30T19:11:35.867Z",
+          "score": 0.7711,
+          "worstIds": [
+            "hero-proof",
+            "branch-systems",
+            "nav-links"
+          ],
+          "regionVerdicts": {
+            "nav-brand": "drift",
+            "nav-links": "missing",
+            "nav-cta": "missing",
+            "headline-transform": "drift",
+            "headline-ideas": "drift",
+            "headline-tech": "drift",
+            "hero-subhead": "drift",
+            "hero-primary": "drift",
+            "hero-secondary": "missing",
+            "hero-proof": "missing",
+            "loop-core": "contradicted",
+            "branch-sites": "drift",
+            "sites-copy": "missing",
+            "branch-systems": "contradicted",
+            "systems-copy": "missing",
+            "branch-automation": "contradicted",
+            "automation-copy": "drift",
+            "branch-ai": "drift",
+            "ai-copy": "drift"
+          },
+          "artifactHash": null
+        },
+        {
+          "at": "2026-09-30T19:12:50.106Z",
+          "score": 0.7799,
+          "worstIds": [
+            "hero-primary",
+            "hero-proof",
+            "branch-systems"
+          ],
+          "regionVerdicts": {
+            "nav-brand": "drift",
+            "nav-links": "drift",
+            "nav-cta": "drift",
+            "headline-transform": "drift",
+            "headline-ideas": "drift",
+            "headline-tech": "drift",
+            "hero-subhead": "drift",
+            "hero-primary": "missing",
+            "hero-secondary": "missing",
+            "hero-proof": "contradicted",
+            "loop-core": "contradicted",
+            "branch-sites": "drift",
+            "sites-copy": "drift",
+            "branch-systems": "contradicted",
+            "systems-copy": "missing",
+            "branch-automation": "contradicted",
+            "automation-copy": "contradicted",
+            "branch-ai": "drift",
+            "ai-copy": "drift"
+          },
+          "artifactHash": null
+        },
+        {
+          "at": "2026-09-30T19:13:47.862Z",
+          "score": 0.7371,
+          "worstIds": [
+            "hero-proof",
+            "hero-primary",
+            "branch-systems"
+          ],
+          "regionVerdicts": {
+            "nav-brand": "drift",
+            "nav-links": "missing",
+            "nav-cta": "missing",
+            "headline-transform": "drift",
+            "headline-ideas": "drift",
+            "headline-tech": "drift",
+            "hero-subhead": "drift",
+            "hero-primary": "contradicted",
+            "hero-secondary": "missing",
+            "hero-proof": "missing",
+            "loop-core": "contradicted",
+            "branch-sites": "drift",
+            "sites-copy": "drift",
+            "branch-systems": "contradicted",
+            "systems-copy": "drift",
+            "branch-automation": "contradicted",
+            "automation-copy": "contradicted",
+            "branch-ai": "drift",
+            "ai-copy": "drift"
+          },
+          "artifactHash": null
+        },
+        {
+          "at": "2026-09-30T19:14:32.406Z",
+          "score": 0.7696,
+          "worstIds": [
+            "hero-proof",
+            "branch-systems",
+            "automation-copy"
+          ],
+          "regionVerdicts": {
+            "nav-brand": "drift",
+            "nav-links": "missing",
+            "nav-cta": "missing",
+            "headline-transform": "drift",
+            "headline-ideas": "drift",
+            "headline-tech": "drift",
+            "hero-subhead": "drift",
+            "hero-primary": "drift",
+            "hero-secondary": "missing",
+            "hero-proof": "contradicted",
+            "loop-core": "contradicted",
+            "branch-sites": "drift",
+            "sites-copy": "drift",
+            "branch-systems": "contradicted",
+            "systems-copy": "drift",
+            "branch-automation": "contradicted",
+            "automation-copy": "contradicted",
+            "branch-ai": "drift",
+            "ai-copy": "drift"
+          },
+          "artifactHash": null
+        },
+        {
+          "at": "2026-09-30T19:15:21.734Z",
+          "score": 0.7755,
+          "worstIds": [
+            "branch-systems",
+            "automation-copy",
+            "loop-core"
+          ],
+          "regionVerdicts": {
+            "nav-brand": "drift",
+            "nav-links": "missing",
+            "nav-cta": "missing",
+            "headline-transform": "drift",
+            "headline-ideas": "drift",
+            "headline-tech": "drift",
+            "hero-subhead": "drift",
+            "hero-primary": "missing",
+            "hero-secondary": "missing",
+            "hero-proof": "missing",
+            "loop-core": "contradicted",
+            "branch-sites": "drift",
+            "sites-copy": "drift",
+            "branch-systems": "contradicted",
+            "systems-copy": "drift",
+            "branch-automation": "contradicted",
+            "automation-copy": "contradicted",
+            "branch-ai": "drift",
+            "ai-copy": "drift"
+          },
+          "artifactHash": null
+        }
+      ]
+    },
+    "sections": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "motion": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "responsive": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "review": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    }
+  },
+  "finish": null,
+  "plates": {}
+}

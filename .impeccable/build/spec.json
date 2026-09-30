@@ -1,0 +1,1276 @@
+{
+  "tool": "comp-spec",
+  "version": 1,
+  "createdAt": "2026-09-30T17:45:13.594Z",
+  "comp": ".impeccable/mocks/loop-essential-a.webp",
+  "warnings": [],
+  "uncoveredInkCells": [
+    "I1"
+  ],
+  "compSize": {
+    "width": 1672,
+    "height": 941
+  },
+  "aspect": 1.7768,
+  "orientation": "landscape",
+  "palette": [
+    {
+      "hex": "#f8f8f8",
+      "coverage": 0.8609
+    },
+    {
+      "hex": "#0a162b",
+      "coverage": 0.0614
+    },
+    {
+      "hex": "#6353f0",
+      "coverage": 0.0594
+    },
+    {
+      "hex": "#382cc1",
+      "coverage": 0.0099
+    },
+    {
+      "hex": "#c2c2ca",
+      "coverage": 0.0085
+    }
+  ],
+  "bands": [
+    {
+      "y": 0.0417,
+      "strength": 0.457
+    },
+    {
+      "y": 0.0694,
+      "strength": 0.2741
+    },
+    {
+      "y": 0.1111,
+      "strength": 0.5521
+    },
+    {
+      "y": 0.2778,
+      "strength": 0.8795
+    },
+    {
+      "y": 0.3472,
+      "strength": 0.547
+    },
+    {
+      "y": 0.3889,
+      "strength": 0.5875
+    },
+    {
+      "y": 0.4583,
+      "strength": 0.4787
+    },
+    {
+      "y": 0.5,
+      "strength": 0.4258
+    },
+    {
+      "y": 0.5694,
+      "strength": 0.2503
+    },
+    {
+      "y": 0.6111,
+      "strength": 0.2016
+    },
+    {
+      "y": 0.6667,
+      "strength": 0.2625
+    },
+    {
+      "y": 0.7639,
+      "strength": 0.3726
+    },
+    {
+      "y": 0.8333,
+      "strength": 0.4546
+    }
+  ],
+  "regions": [
+    {
+      "id": "nav-brand",
+      "kind": "chrome",
+      "note": "símbolo plano azul-violeta e wordmark While Dreams alinhados à esquerda",
+      "grid": "A0:C0",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 0.3,
+        "h": 0.1
+      },
+      "px": {
+        "x": 0,
+        "y": 0,
+        "w": 502,
+        "h": 94
+      },
+      "aspect": 5.3404,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.8951
+        },
+        {
+          "hex": "#0e1127",
+          "coverage": 0.0545
+        },
+        {
+          "hex": "#614fee",
+          "coverage": 0.0307
+        },
+        {
+          "hex": "#c1c4d1",
+          "coverage": 0.0109
+        },
+        {
+          "hex": "#3e29c6",
+          "coverage": 0.0088
+        }
+      ],
+      "detail": {
+        "energy": 34.1984
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "nav-links",
+      "kind": "text",
+      "note": "links Soluções, Projetos, Como trabalhamos e Sobre em uma linha",
+      "grid": "D0:H0",
+      "coverBox": {
+        "x": 0.3,
+        "y": 0,
+        "w": 0.5,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.5299,
+        "y": 0.0638,
+        "w": 0.1112,
+        "h": 0.0319
+      },
+      "px": {
+        "x": 886,
+        "y": 60,
+        "w": 186,
+        "h": 30
+      },
+      "aspect": 6.2,
+      "palette": [
+        {
+          "hex": "#f6f7f7",
+          "coverage": 0.8322
+        },
+        {
+          "hex": "#0e111d",
+          "coverage": 0.0603
+        },
+        {
+          "hex": "#525560",
+          "coverage": 0.0456
+        },
+        {
+          "hex": "#c0c2cb",
+          "coverage": 0.0375
+        },
+        {
+          "hex": "#86888f",
+          "coverage": 0.0244
+        }
+      ],
+      "detail": {
+        "energy": 49.0878
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 15,
+          "capHeightPx": 14.7,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.614,
+          "advTall": 0.614,
+          "advX": 0.6481,
+          "gap": 0.1023,
+          "xRatio": 0.7031,
+          "stemW": 0.1637,
+          "contrast": 1.0675,
+          "serif": 0.6299,
+          "densTall": 0.4734,
+          "densX": 0.5303,
+          "weight": 0.4734
+        },
+        "widthClass": "normal",
+        "weightClass": "regular"
+      }
+    },
+    {
+      "id": "nav-cta",
+      "kind": "control",
+      "note": "botão azul-marinho Conte sua ideia com seta",
+      "grid": "I0:J0",
+      "coverBox": {
+        "x": 0.8,
+        "y": 0,
+        "w": 0.2,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.8002,
+        "y": 0.0319,
+        "w": 0.1579,
+        "h": 0.068
+      },
+      "px": {
+        "x": 1338,
+        "y": 30,
+        "w": 264,
+        "h": 64
+      },
+      "aspect": 4.125,
+      "palette": [
+        {
+          "hex": "#09172b",
+          "coverage": 0.6997
+        },
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.2439
+        },
+        {
+          "hex": "#080808",
+          "coverage": 0.0279
+        },
+        {
+          "hex": "#2f3848",
+          "coverage": 0.0153
+        },
+        {
+          "hex": "#a3abbb",
+          "coverage": 0.0132
+        }
+      ],
+      "detail": {
+        "energy": 35.6097
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "headline-transform",
+      "kind": "text",
+      "note": "primeira linha monumental Transformamos em azul-marinho",
+      "grid": "A2:F3",
+      "coverBox": {
+        "x": 0,
+        "y": 0.2,
+        "w": 0.6,
+        "h": 0.2
+      },
+      "box": {
+        "x": 0.0395,
+        "y": 0.238,
+        "w": 0.488,
+        "h": 0.1615
+      },
+      "px": {
+        "x": 66,
+        "y": 224,
+        "w": 816,
+        "h": 152
+      },
+      "aspect": 5.3684,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.6711
+        },
+        {
+          "hex": "#0a172b",
+          "coverage": 0.2971
+        },
+        {
+          "hex": "#b9bdc9",
+          "coverage": 0.0202
+        },
+        {
+          "hex": "#464858",
+          "coverage": 0.0071
+        },
+        {
+          "hex": "#808292",
+          "coverage": 0.0046
+        }
+      ],
+      "detail": {
+        "energy": 63.2738
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 9,
+          "capHeightPx": 85.6,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 1.0511,
+          "advTall": 1.1212,
+          "advX": 0.8701,
+          "gap": 0.035,
+          "xRatio": 0.7251,
+          "stemW": 0.2306,
+          "contrast": 1.1271,
+          "serif": null,
+          "densTall": 0.527,
+          "densX": 0.7185,
+          "weight": 0.527
+        },
+        "widthClass": "wide",
+        "weightClass": "medium",
+        "chosen": {
+          "family": "Lexend Giga",
+          "weight": 700,
+          "fontSizePx": 122,
+          "source": "catalog",
+          "estimatedSize": true,
+          "stamp": "29211cc9bb22"
+        }
+      }
+    },
+    {
+      "id": "headline-ideas",
+      "kind": "text",
+      "note": "segunda linha monumental ideias em em azul-marinho",
+      "grid": "A3:D4",
+      "coverBox": {
+        "x": 0,
+        "y": 0.3,
+        "w": 0.4,
+        "h": 0.2
+      },
+      "box": {
+        "x": 0.0431,
+        "y": 0.2997,
+        "w": 0.2907,
+        "h": 0.1998
+      },
+      "px": {
+        "x": 72,
+        "y": 282,
+        "w": 486,
+        "h": 188
+      },
+      "aspect": 2.5851,
+      "palette": [
+        {
+          "hex": "#f7f7f8",
+          "coverage": 0.632
+        },
+        {
+          "hex": "#0a162b",
+          "coverage": 0.3316
+        },
+        {
+          "hex": "#aeb0be",
+          "coverage": 0.014
+        },
+        {
+          "hex": "#4b4e5e",
+          "coverage": 0.0131
+        },
+        {
+          "hex": "#6251f2",
+          "coverage": 0.0092
+        }
+      ],
+      "detail": {
+        "energy": 45.5494
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 8,
+          "capHeightPx": 86.7,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6976,
+          "advTall": 0.2191,
+          "advX": 0.7265,
+          "gap": 0.0346,
+          "xRatio": 0.7089,
+          "stemW": 0.2259,
+          "contrast": 1.1848,
+          "serif": null,
+          "densTall": 0.8944,
+          "densX": 0.6873,
+          "weight": 0.8944
+        },
+        "widthClass": "wide",
+        "weightClass": "black",
+        "chosen": {
+          "family": "Atkinson Hyperlegible",
+          "weight": 700,
+          "fontSizePx": 124,
+          "source": "catalog",
+          "estimatedSize": true,
+          "stamp": "f6cf98d3e68d"
+        }
+      }
+    },
+    {
+      "id": "headline-tech",
+      "kind": "text",
+      "note": "terceira linha monumental tecnologia em violeta",
+      "grid": "A4:D5",
+      "coverBox": {
+        "x": 0,
+        "y": 0.4,
+        "w": 0.4,
+        "h": 0.2
+      },
+      "box": {
+        "x": 0.0395,
+        "y": 0.3996,
+        "w": 0.3409,
+        "h": 0.1977
+      },
+      "px": {
+        "x": 66,
+        "y": 376,
+        "w": 570,
+        "h": 186
+      },
+      "aspect": 3.0645,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.6137
+        },
+        {
+          "hex": "#5f4ef2",
+          "coverage": 0.2091
+        },
+        {
+          "hex": "#0a172d",
+          "coverage": 0.1502
+        },
+        {
+          "hex": "#6458d9",
+          "coverage": 0.0161
+        },
+        {
+          "hex": "#d5d1f7",
+          "coverage": 0.0109
+        }
+      ],
+      "detail": {
+        "energy": 45.1611
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 8,
+          "capHeightPx": 85.7,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6652,
+          "advTall": 0.2334,
+          "advX": 0.7061,
+          "gap": 0.0233,
+          "xRatio": 0.7058,
+          "stemW": 0.1965,
+          "contrast": 1.1199,
+          "serif": 0.9463,
+          "densTall": 0.7739,
+          "densX": 0.5953,
+          "weight": 0.7739
+        },
+        "widthClass": "normal",
+        "weightClass": "black"
+      }
+    },
+    {
+      "id": "hero-subhead",
+      "kind": "text",
+      "note": "subheadline cinza em três linhas explicando sites, sistemas, automações e IA",
+      "grid": "A6:D6",
+      "coverBox": {
+        "x": 0,
+        "y": 0.6,
+        "w": 0.4,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.0431,
+        "y": 0.6004,
+        "w": 0.3445,
+        "h": 0.0999
+      },
+      "px": {
+        "x": 72,
+        "y": 565,
+        "w": 576,
+        "h": 94
+      },
+      "aspect": 6.1277,
+      "palette": [
+        {
+          "hex": "#f6f7f7",
+          "coverage": 0.8619
+        },
+        {
+          "hex": "#6f7076",
+          "coverage": 0.0875
+        },
+        {
+          "hex": "#b2b3b8",
+          "coverage": 0.0506
+        }
+      ],
+      "detail": {
+        "energy": 41.9105
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 2,
+          "glyphs": 77,
+          "capHeightPx": 20.1,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.5957,
+          "advTall": 0.2858,
+          "advX": 0.5968,
+          "gap": 0.1241,
+          "xRatio": 0.6941,
+          "stemW": 0.1433,
+          "contrast": 1.0825,
+          "serif": 0.9472,
+          "densTall": 0.6061,
+          "densX": 0.5615,
+          "weight": 0.6061
+        },
+        "widthClass": "normal",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "hero-primary",
+      "kind": "control",
+      "note": "botão azul-marinho Conte sua ideia",
+      "grid": "A7:B7",
+      "coverBox": {
+        "x": 0,
+        "y": 0.7,
+        "w": 0.2,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.0431,
+        "y": 0.7513,
+        "w": 0.1567,
+        "h": 0.0489
+      },
+      "px": {
+        "x": 72,
+        "y": 707,
+        "w": 262,
+        "h": 46
+      },
+      "aspect": 5.6957,
+      "palette": [
+        {
+          "hex": "#09172b",
+          "coverage": 0.7175
+        },
+        {
+          "hex": "#f4f5f8",
+          "coverage": 0.2382
+        },
+        {
+          "hex": "#4e5869",
+          "coverage": 0.0164
+        },
+        {
+          "hex": "#babfd2",
+          "coverage": 0.015
+        },
+        {
+          "hex": "#808897",
+          "coverage": 0.0128
+        }
+      ],
+      "detail": {
+        "energy": 28.826
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "hero-secondary",
+      "kind": "control",
+      "note": "botão branco contornado Conheça nossas soluções",
+      "grid": "C7:E7",
+      "coverBox": {
+        "x": 0.2,
+        "y": 0.7,
+        "w": 0.3,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.2572,
+        "y": 0.7832,
+        "w": 0.1543,
+        "h": 0.017
+      },
+      "px": {
+        "x": 430,
+        "y": 737,
+        "w": 258,
+        "h": 16
+      },
+      "aspect": 16.125,
+      "palette": [
+        {
+          "hex": "#f7f7f8",
+          "coverage": 0.8012
+        },
+        {
+          "hex": "#272739",
+          "coverage": 0.0669
+        },
+        {
+          "hex": "#090a15",
+          "coverage": 0.061
+        },
+        {
+          "hex": "#a5a5b3",
+          "coverage": 0.0374
+        },
+        {
+          "hex": "#5d5d6d",
+          "coverage": 0.0335
+        }
+      ],
+      "detail": {
+        "energy": 75.9005
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "hero-proof",
+      "kind": "text",
+      "note": "linha editorial Estratégia, Produto e Tecnologia com separadores",
+      "grid": "A8:D8",
+      "coverBox": {
+        "x": 0,
+        "y": 0.8,
+        "w": 0.4,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.0431,
+        "y": 0.8002,
+        "w": 0.183,
+        "h": 0.0446
+      },
+      "px": {
+        "x": 72,
+        "y": 753,
+        "w": 306,
+        "h": 42
+      },
+      "aspect": 7.2857,
+      "palette": [
+        {
+          "hex": "#091629",
+          "coverage": 0.7381
+        },
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.2079
+        },
+        {
+          "hex": "#444f60",
+          "coverage": 0.022
+        },
+        {
+          "hex": "#b1b7c7",
+          "coverage": 0.0177
+        },
+        {
+          "hex": "#8d90a0",
+          "coverage": 0.0142
+        }
+      ],
+      "detail": {
+        "energy": 38.2318
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": null,
+        "measuredAt": "2026-09-30T17:45:15.952Z",
+        "note": "no separable lettering in the crop; size by the region box"
+      }
+    },
+    {
+      "id": "loop-core",
+      "kind": "chrome",
+      "note": "símbolo plano em fita azul-violeta formando o loop central da marca",
+      "grid": "E4:H6",
+      "box": {
+        "x": 0.4,
+        "y": 0.4,
+        "w": 0.4,
+        "h": 0.3
+      },
+      "px": {
+        "x": 669,
+        "y": 376,
+        "w": 669,
+        "h": 282
+      },
+      "aspect": 2.3723,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.571
+        },
+        {
+          "hex": "#6050ee",
+          "coverage": 0.3062
+        },
+        {
+          "hex": "#372bc1",
+          "coverage": 0.0823
+        },
+        {
+          "hex": "#8173f4",
+          "coverage": 0.0368
+        },
+        {
+          "hex": "#998de9",
+          "coverage": 0.0037
+        }
+      ],
+      "detail": {
+        "energy": 16.9533
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "branch-sites",
+      "kind": "chrome",
+      "note": "ramificação superior violeta com ponto terminal e ícone simples de site",
+      "grid": "G2:I3",
+      "box": {
+        "x": 0.6,
+        "y": 0.2,
+        "w": 0.3,
+        "h": 0.2
+      },
+      "px": {
+        "x": 1003,
+        "y": 188,
+        "w": 502,
+        "h": 188
+      },
+      "aspect": 2.6702,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.9204
+        },
+        {
+          "hex": "#7666f6",
+          "coverage": 0.0639
+        },
+        {
+          "hex": "#11142b",
+          "coverage": 0.0073
+        },
+        {
+          "hex": "#a0a0a0",
+          "coverage": 0.0053
+        },
+        {
+          "hex": "#70707c",
+          "coverage": 0.0031
+        }
+      ],
+      "detail": {
+        "energy": 13.0633
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "sites-copy",
+      "kind": "text",
+      "note": "título Sites e frase Presença que gera resultados",
+      "grid": "I2:J2",
+      "coverBox": {
+        "x": 0.8,
+        "y": 0.2,
+        "w": 0.2,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.8325,
+        "y": 0.2125,
+        "w": 0.1005,
+        "h": 0.0871
+      },
+      "px": {
+        "x": 1392,
+        "y": 200,
+        "w": 168,
+        "h": 82
+      },
+      "aspect": 2.0488,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.8606
+        },
+        {
+          "hex": "#9d9ea2",
+          "coverage": 0.0713
+        },
+        {
+          "hex": "#0e1226",
+          "coverage": 0.024
+        },
+        {
+          "hex": "#c3c6ce",
+          "coverage": 0.024
+        },
+        {
+          "hex": "#70717a",
+          "coverage": 0.0201
+        }
+      ],
+      "detail": {
+        "energy": 23.5158
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 5,
+          "capHeightPx": 21.3,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.4861,
+          "advTall": 0.4861,
+          "advX": 0.5018,
+          "gap": 0.0392,
+          "xRatio": 0.7281,
+          "stemW": 0.219,
+          "contrast": 1.0859,
+          "serif": null,
+          "densTall": 0.627,
+          "densX": 0.693,
+          "weight": 0.627
+        },
+        "widthClass": "condensed",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "branch-systems",
+      "kind": "chrome",
+      "note": "ramificação central violeta com ponto terminal e ícone simples de sistema",
+      "grid": "G4:I4",
+      "box": {
+        "x": 0.6,
+        "y": 0.4,
+        "w": 0.3,
+        "h": 0.1
+      },
+      "px": {
+        "x": 1003,
+        "y": 376,
+        "w": 502,
+        "h": 94
+      },
+      "aspect": 5.3404,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.6547
+        },
+        {
+          "hex": "#6556f2",
+          "coverage": 0.3071
+        },
+        {
+          "hex": "#111229",
+          "coverage": 0.0203
+        },
+        {
+          "hex": "#6e60da",
+          "coverage": 0.0098
+        },
+        {
+          "hex": "#d5d2ef",
+          "coverage": 0.0081
+        }
+      ],
+      "detail": {
+        "energy": 30.4912
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "systems-copy",
+      "kind": "text",
+      "note": "título Sistemas e frase Soluções feitas para o seu negócio",
+      "grid": "I4:J4",
+      "coverBox": {
+        "x": 0.8,
+        "y": 0.4,
+        "w": 0.2,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.8612,
+        "y": 0.3996,
+        "w": 0.1148,
+        "h": 0.0893
+      },
+      "px": {
+        "x": 1440,
+        "y": 376,
+        "w": 192,
+        "h": 84
+      },
+      "aspect": 2.2857,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.8598
+        },
+        {
+          "hex": "#aaacb1",
+          "coverage": 0.069
+        },
+        {
+          "hex": "#13152c",
+          "coverage": 0.0435
+        },
+        {
+          "hex": "#787980",
+          "coverage": 0.0153
+        },
+        {
+          "hex": "#43465c",
+          "coverage": 0.0124
+        }
+      ],
+      "detail": {
+        "energy": 30.6935
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 6,
+          "capHeightPx": 21.3,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6798,
+          "advTall": 0.7032,
+          "advX": 0.6564,
+          "gap": 0.0469,
+          "xRatio": 0.7219,
+          "stemW": 0.2214,
+          "contrast": 1.1269,
+          "serif": 0.9895,
+          "densTall": 0.6268,
+          "densX": 0.6765,
+          "weight": 0.6268
+        },
+        "widthClass": "normal",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "branch-automation",
+      "kind": "chrome",
+      "note": "ramificação violeta com ponto terminal e ícone simples de automação",
+      "grid": "G5:I6",
+      "box": {
+        "x": 0.6,
+        "y": 0.5,
+        "w": 0.3,
+        "h": 0.2
+      },
+      "px": {
+        "x": 1003,
+        "y": 471,
+        "w": 502,
+        "h": 188
+      },
+      "aspect": 2.6702,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.6774
+        },
+        {
+          "hex": "#3e31c9",
+          "coverage": 0.2209
+        },
+        {
+          "hex": "#7a6bf7",
+          "coverage": 0.0867
+        },
+        {
+          "hex": "#101228",
+          "coverage": 0.0101
+        },
+        {
+          "hex": "#d0ceea",
+          "coverage": 0.005
+        }
+      ],
+      "detail": {
+        "energy": 20.2504
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "automation-copy",
+      "kind": "text",
+      "note": "título Automação e frase Processos que trabalham por você",
+      "grid": "I6:J6",
+      "coverBox": {
+        "x": 0.8,
+        "y": 0.6,
+        "w": 0.2,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.8541,
+        "y": 0.6068,
+        "w": 0.1184,
+        "h": 0.0935
+      },
+      "px": {
+        "x": 1428,
+        "y": 571,
+        "w": 198,
+        "h": 88
+      },
+      "aspect": 2.25,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.8484
+        },
+        {
+          "hex": "#0f132a",
+          "coverage": 0.0527
+        },
+        {
+          "hex": "#babdc2",
+          "coverage": 0.0507
+        },
+        {
+          "hex": "#7e8187",
+          "coverage": 0.0369
+        },
+        {
+          "hex": "#373847",
+          "coverage": 0.0113
+        }
+      ],
+      "detail": {
+        "energy": 31.8241
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 7,
+          "capHeightPx": 20.7,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.8086,
+          "advTall": 1.05,
+          "advX": 0.712,
+          "gap": 0.0483,
+          "xRatio": 0.735,
+          "stemW": 0.22,
+          "contrast": 1.1088,
+          "serif": 0.886,
+          "densTall": 0.5319,
+          "densX": 0.6683,
+          "weight": 0.5319
+        },
+        "widthClass": "normal",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "branch-ai",
+      "kind": "chrome",
+      "note": "ramificação inferior violeta com ponto terminal e ícone simples de inteligência artificial",
+      "grid": "G6:I8",
+      "box": {
+        "x": 0.6,
+        "y": 0.6,
+        "w": 0.3,
+        "h": 0.3
+      },
+      "px": {
+        "x": 1003,
+        "y": 565,
+        "w": 502,
+        "h": 282
+      },
+      "aspect": 1.7801,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.8152
+        },
+        {
+          "hex": "#382bc1",
+          "coverage": 0.0936
+        },
+        {
+          "hex": "#7666f8",
+          "coverage": 0.0692
+        },
+        {
+          "hex": "#13162c",
+          "coverage": 0.0147
+        },
+        {
+          "hex": "#92949b",
+          "coverage": 0.0072
+        }
+      ],
+      "detail": {
+        "energy": 20.6041
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "ai-copy",
+      "kind": "text",
+      "note": "título IA aplicada e frase Inteligência para decisões reais",
+      "grid": "I7:J8",
+      "coverBox": {
+        "x": 0.8,
+        "y": 0.7,
+        "w": 0.2,
+        "h": 0.2
+      },
+      "box": {
+        "x": 0.8254,
+        "y": 0.7896,
+        "w": 0.1077,
+        "h": 0.0956
+      },
+      "px": {
+        "x": 1380,
+        "y": 743,
+        "w": 180,
+        "h": 90
+      },
+      "aspect": 2,
+      "palette": [
+        {
+          "hex": "#f7f8f8",
+          "coverage": 0.8514
+        },
+        {
+          "hex": "#10122a",
+          "coverage": 0.0507
+        },
+        {
+          "hex": "#ced0d6",
+          "coverage": 0.0421
+        },
+        {
+          "hex": "#a5a8ae",
+          "coverage": 0.0319
+        },
+        {
+          "hex": "#797a80",
+          "coverage": 0.0239
+        }
+      ],
+      "detail": {
+        "energy": 29.3003
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 9,
+          "capHeightPx": 21.3,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6109,
+          "advTall": 0.2115,
+          "advX": 0.6109,
+          "gap": 0.047,
+          "xRatio": 0.6971,
+          "stemW": 0.211,
+          "contrast": 1.1369,
+          "serif": 0.9242,
+          "densTall": 0.8867,
+          "densX": 0.7275,
+          "weight": 0.8867
+        },
+        "widthClass": "normal",
+        "weightClass": "black"
+      }
+    }
+  ]
+}
