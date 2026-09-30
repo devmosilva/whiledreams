@@ -43,7 +43,7 @@
 
 ### T4 — Build project examples module
 
-**Status**: Pending  
+**Status**: Done  
 **What**: Create three demonstrative project scenarios with problem, solution, capabilities and technology.  
 **Where**: `components/projects-section.tsx`, `app/globals.css`  
 **Depends on**: T3  
