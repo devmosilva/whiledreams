@@ -1,7 +1,7 @@
 # Narrativa da landing — Tasks
 
 **Design**: `.specs/features/landing-narrative/design.md`  
-**Status**: In Progress
+**Status**: Done
 
 ## Execution plan
 
@@ -11,7 +11,7 @@
 
 ### T1 — Define the narrative implementation plan
 
-**Status**: Done  
+**Status**: Done
 **What**: Record component boundaries, content ownership and verification.  
 **Where**: `.specs/features/landing-narrative/`  
 **Depends on**: None  
@@ -65,7 +65,7 @@
 
 ### T6 — Integrate and visually validate narrative
 
-**Status**: Pending  
+**Status**: Done
 **What**: Compose all modules in the home and perform bounded desktop/mobile review.  
 **Where**: `app/page.tsx`, narrative components, `app/globals.css`, spec/state/notebook  
 **Depends on**: T5  

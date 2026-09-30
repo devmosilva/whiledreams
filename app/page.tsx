@@ -1,6 +1,10 @@
 import { ArrowRight, Database, PanelsTopLeft, Settings, Sparkles } from "lucide-react";
 import Image from "next/image";
 import { BrandLogo } from "@/components/brand-logo";
+import { AboutSection } from "@/components/about-section";
+import { ProcessSection } from "@/components/process-section";
+import { ProjectsSection } from "@/components/projects-section";
+import { SolutionsSection } from "@/components/solutions-section";
 import brandSymbol from "@/logo/while-dreams-simbolo-transparente.png";
 
 const solutions = [
@@ -122,6 +126,10 @@ export default function Home() {
 
         <HeroNetwork />
       </section>
+      <SolutionsSection />
+      <ProcessSection />
+      <ProjectsSection />
+      <AboutSection />
     </main>
   );
 }

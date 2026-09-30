@@ -17,12 +17,12 @@ Construir as seções de serviços, problemas, processo, exemplos de projetos, d
 
 | Requirement | Task | Status |
 | --- | --- | --- |
-| `NARR-01` | T2 | In Tasks |
-| `NARR-02` | T2 | In Tasks |
-| `NARR-03` | T3 | In Tasks |
-| `NARR-04` | T4 | In Tasks |
-| `NARR-05` | T5 | In Tasks |
-| `NARR-06` | T2–T6 | In Tasks |
+| `NARR-01` | T2 | Verified |
+| `NARR-02` | T2 | Verified |
+| `NARR-03` | T3 | Verified |
+| `NARR-04` | T4 | Verified |
+| `NARR-05` | T5 | Verified |
+| `NARR-06` | T2–T6 | Verified |
 
 **Coverage:** 6 total, 6 mapped, 0 unmapped.
 

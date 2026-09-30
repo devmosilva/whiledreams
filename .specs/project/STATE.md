@@ -3,8 +3,8 @@
 ## Current
 
 - Data: 2026-09-30
-- Feature concluída: F1 — Fundação visual e hero
-- Próxima feature: F2 — Narrativa e prova de capacidade
+- Features concluídas: F1 — Fundação visual e hero; F2 — Narrativa e prova de capacidade
+- Próxima feature: F3 — Conversão e publicação
 - Direção aprovada: Loop Essencial / composição “Símbolo modular”
 - Implementação encontrada: hero desktop e mobile parcial em `app/page.tsx` e `app/globals.css`
 
@@ -23,10 +23,10 @@
 
 ## Deferred
 
-- F2: seções narrativas abaixo da dobra.
 - F3: formulário, API, analytics, SEO complementar e páginas legais.
 
 ## Lessons learned
 
 - A aproximação vetorial do símbolo gerava a maior divergência do hero; usar o PNG transparente oficial como núcleo removeu essa fonte de drift.
 - Capturas contra o servidor Next.js de desenvolvimento não podem aguardar `networkidle` por causa do HMR; `scripts/capture.mjs` usa `domcontentloaded` com espera determinística.
+- A narrativa abaixo da dobra usa quatro módulos semânticos independentes e é composta em `app/page.tsx`; o conteúdo permanece local a cada módulo para facilitar revisão e evolução.
