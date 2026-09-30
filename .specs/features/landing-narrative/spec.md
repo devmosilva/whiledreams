@@ -13,6 +13,19 @@ Construir as seções de serviços, problemas, processo, exemplos de projetos, d
 - `NARR-05`: diferenciais e história explicam o posicionamento e a origem do nome.
 - `NARR-06`: todas as seções preservam leitura, teclado e responsividade.
 
+## Requirement traceability
+
+| Requirement | Task | Status |
+| --- | --- | --- |
+| `NARR-01` | T2 | In Tasks |
+| `NARR-02` | T2 | In Tasks |
+| `NARR-03` | T3 | In Tasks |
+| `NARR-04` | T4 | In Tasks |
+| `NARR-05` | T5 | In Tasks |
+| `NARR-06` | T2–T6 | In Tasks |
+
+**Coverage:** 6 total, 6 mapped, 0 unmapped.
+
 ## Acceptance
 
 WHEN o visitante percorrer a página THEN cada requisito SHALL ser encontrado em uma seção semanticamente nomeada e conectado ao próximo passo da narrativa.
@@ -20,4 +33,3 @@ WHEN o visitante percorrer a página THEN cada requisito SHALL ser encontrado em
 ## Out of scope
 
 Formulário, envio, analytics e páginas legais pertencem à spec de conversão e publicação.
-
