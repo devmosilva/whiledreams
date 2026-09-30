@@ -8,7 +8,7 @@ web
 
 ## Stack
 
-Next.js com TypeScript e Tailwind CSS, publicado na Vercel. O formulário usa React Hook Form e Zod, envia os contatos pelo Resend e mede conversões com PostHog. A infraestrutura prevista usa Registro.br e Cloudflare para domínio, DNS e segurança.
+Next.js com TypeScript e Tailwind CSS, publicado na Vercel. O formulário usa React Hook Form e Zod, envia os contatos pelo Resend e mede conversões com PostHog. O domínio está registrado na Hostinger; Cloudflare permanece previsto para DNS e segurança.
 
 ## Users
 
@@ -33,7 +33,8 @@ O visitante pode chegar à página procurando melhorar a presença digital, elim
 ## Capabilities and Constraints
 
 - MVP com hero, serviços, problemas resolvidos, processo de trabalho, dois ou três exemplos de projetos, história da marca, CTA final, formulário, WhatsApp e analytics.
-- Contato provisório por WhatsApp no número `+55 71 98690-1876` e pelo e-mail `devmosilva@gmail.com`; ambos devem ser fáceis de substituir posteriormente.
+- Contatos atuais: WhatsApp `+55 71 8314-4623`; e-mails `contato@whiledreams.com.br` e `matheus@whiledreams.com.br` (referência detalhada em [`contatos.md`](./contatos.md)).
+- Domínio: `whiledreams.com.br`, registrado na Hostinger.
 - Os projetos apresentados são “exemplos do que criamos”. Não devem usar clientes, depoimentos, resultados ou métricas inventadas.
 - Formulário com nome, empresa, e-mail, WhatsApp, tipo de projeto e mensagem, validado no cliente e no servidor.
 - Sem banco de dados, CMS, autenticação, painel administrativo, blog ou infraestrutura complexa na V1.
@@ -54,6 +55,7 @@ O visitante pode chegar à página procurando melhorar a presença digital, elim
 - [`PRD.md`](./PRD.md): conteúdo, escopo, requisitos e critérios de sucesso da landing page.
 - [`WhileDreams.md`](./WhileDreams.md): história e significado da marca.
 - [`while-dreams-stack-v1.md`](./while-dreams-stack-v1.md): stack e arquitetura definidas para a V1.
+- [`contatos.md`](./contatos.md): contatos atuais e domínio da While Dreams.
 - [`logo/logo_02.png`](./logo/logo_02.png): referência aprovada da identidade visual.
 - Não há cases comerciais, depoimentos, métricas de clientes ou provas quantitativas disponíveis nesta etapa.
 

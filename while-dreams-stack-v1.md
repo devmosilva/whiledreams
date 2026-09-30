@@ -140,29 +140,21 @@ Migrar para plano pago somente quando existir necessidade comercial ou técnica 
 
 # 4. Domínio
 
-## Registro.br
+## Hostinger
 
-O domínio principal será registrado pelo **Registro.br**.
+O domínio principal `whiledreams.com.br` já está registrado na **Hostinger**.
 
-Sugestão:
-
-```text
-whiledreams.com.br
-```
-
-Se disponível.
-
-### Estrutura
+### Estrutura prevista
 
 ```text
-Registro.br
+Hostinger (registro e renovação)
     ↓
-Cloudflare DNS
+Cloudflare DNS (se configurado)
     ↓
 Vercel
 ```
 
-O Registro.br continua responsável pela propriedade e renovação do domínio.
+Cloudflare permanece como opção planejada para DNS e segurança; confirmar sua configuração antes de alterar nameservers.
 
 ---
 
@@ -483,7 +475,7 @@ Possíveis opções futuras:
 # 17. Arquitetura inicial
 
 ```text
-                         Registro.br
+                         Hostinger
                               │
                               ▼
                          Cloudflare
@@ -515,7 +507,7 @@ Possíveis opções futuras:
 | Formulários | React Hook Form |
 | Validação | Zod |
 | Hospedagem | Vercel Free |
-| Domínio | Registro.br |
+| Domínio | Hostinger (`whiledreams.com.br`) |
 | DNS | Cloudflare Free |
 | Analytics | PostHog Free |
 | E-mail | Resend Free |
@@ -574,19 +566,18 @@ A regra da While Dreams será:
 
 # 21. Próximos passos
 
-1. Registrar `whiledreams.com.br`.
-2. Criar repositório no GitHub.
-3. Inicializar projeto Next.js + TypeScript.
-4. Configurar Tailwind.
-5. Criar estrutura visual da landing page.
-6. Criar formulário com React Hook Form + Zod.
-7. Integrar Resend.
-8. Adicionar CTA do WhatsApp.
-9. Configurar PostHog.
-10. Publicar na Vercel.
-11. Configurar domínio via Cloudflare.
-12. Validar SEO, responsividade e performance.
-13. Iniciar prospecção.
+1. Criar repositório no GitHub.
+2. Inicializar projeto Next.js + TypeScript.
+3. Configurar Tailwind.
+4. Criar estrutura visual da landing page.
+5. Criar formulário com React Hook Form + Zod.
+6. Integrar Resend.
+7. Adicionar CTA do WhatsApp.
+8. Configurar PostHog.
+9. Publicar na Vercel.
+10. Apontar o domínio existente para a Vercel e configurar DNS conforme a topologia escolhida.
+11. Validar SEO, responsividade e performance.
+12. Iniciar prospecção.
 
 ---
 

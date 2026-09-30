@@ -14,6 +14,8 @@
 - As ramificações para serviços continuam vetoriais para preservar responsividade.
 - O asset original não será recortado ou sobrescrito; o enquadramento é feito em CSS.
 - A V1 foi separada em três specs para não acoplar direção visual, conteúdo e integrações.
+- Dados atuais de contato e domínio estão em `contatos.md`; o domínio `whiledreams.com.br` está registrado na Hostinger.
+- O destino dos leads via Resend ainda deve ser alinhado à configuração verificada do domínio.
 
 ## Blockers
 

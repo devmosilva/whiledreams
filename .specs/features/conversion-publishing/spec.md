@@ -14,7 +14,13 @@ Entregar o caminho completo de contato e os requisitos técnicos de publicação
 - `PUB-01`: metadata, Open Graph, sitemap, robots, 404 e privacidade estão disponíveis.
 - `PUB-02`: ausência de credenciais não quebra renderização nem expõe segredos.
 
+## Configuration provided
+
+- Domínio canônico: `https://whiledreams.com.br` (registrado na Hostinger).
+- WhatsApp: `+55 71 8314-4623` (`wa.me/557183144623`).
+- E-mails informados: `contato@whiledreams.com.br` e `matheus@whiledreams.com.br`.
+- O destino dos leads via Resend ainda deve ser definido de acordo com a configuração verificada do domínio.
+
 ## Out of scope
 
 Banco de dados, CMS, autenticação, painel administrativo e blog não pertencem à V1.
-
