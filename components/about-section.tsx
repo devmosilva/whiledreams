@@ -67,7 +67,7 @@ export function AboutSection() {
             para construir.
           </p>
           <strong>While Dreams. Transformamos ideias em tecnologia.</strong>
-          <a className="button brand-story-cta" href="#contato">
+          <a className="button brand-story-cta" href="#contato" data-analytics="cta_clicked">
             Quero tirar minha ideia do papel
             <ArrowRight aria-hidden="true" size={20} />
           </a>

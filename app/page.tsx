@@ -5,6 +5,8 @@ import { AboutSection } from "@/components/about-section";
 import { ProcessSection } from "@/components/process-section";
 import { ProjectsSection } from "@/components/projects-section";
 import { SolutionsSection } from "@/components/solutions-section";
+import { ContactSection } from "@/components/contact-section";
+import { PrivacySettingsButton } from "@/components/privacy-settings-button";
 import brandSymbol from "@/logo/while-dreams-simbolo-transparente.png";
 
 const solutions = [
@@ -95,8 +97,9 @@ export default function Home() {
             <a href="#projetos">Projetos</a>
             <a href="#processo">Como trabalhamos</a>
             <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
           </nav>
-          <a className="button button-primary header-cta" href="#contato">
+          <a className="button button-primary header-cta" href="#contato" data-analytics="cta_clicked">
             Conte sua ideia <ArrowRight aria-hidden="true" size={20} />
           </a>
         </header>
@@ -112,7 +115,7 @@ export default function Home() {
             problemas reais do seu negócio.
           </p>
           <div className="hero-actions">
-            <a className="button button-primary" href="#contato">
+            <a className="button button-primary" href="#contato" data-analytics="cta_clicked">
               Conte sua ideia <ArrowRight aria-hidden="true" size={20} />
             </a>
             <a className="button button-secondary" href="#solucoes">
@@ -130,6 +133,11 @@ export default function Home() {
       <ProcessSection />
       <ProjectsSection />
       <AboutSection />
+      <ContactSection />
+      <footer className="site-footer">
+        <span>© {new Date().getFullYear()} While Dreams</span>
+        <div><a href="/privacidade">Privacidade</a><PrivacySettingsButton /></div>
+      </footer>
     </main>
   );
 }

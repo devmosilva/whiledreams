@@ -78,7 +78,7 @@ export function SolutionsSection() {
             O ponto de partida pode ser um gargalo claro ou apenas a sensação de que
             o processo atual já não acompanha o negócio.
           </p>
-          <a className="button problem-cta" href="#contato">
+          <a className="button problem-cta" href="#contato" data-analytics="cta_clicked">
             Tenho um problema para resolver
             <ArrowRight aria-hidden="true" size={20} />
           </a>
