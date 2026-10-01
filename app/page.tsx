@@ -56,29 +56,29 @@ function HeroNetwork() {
       >
         <defs>
           <linearGradient id="ribbon-gradient" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0" stopColor="#8175ff" />
+            <stop offset="0" stopColor="#7655f2" />
             <stop offset="0.47" stopColor="#6554ee" />
             <stop offset="1" stopColor="#3428bd" />
           </linearGradient>
         </defs>
         <g className="network-desktop">
-          <path className="ribbon-branch" d="M500 294 C610 294 545 85 640 85" />
-          <path className="ribbon-branch" d="M520 344 C610 344 590 272 660 272" />
-          <path className="ribbon-branch" d="M515 397 C610 397 610 460 670 460" />
-          <path className="ribbon-branch" d="M490 446 C600 470 550 657 640 657" />
+          <path className="ribbon-branch" d="M571 199 C615 175 590 85 640 85" />
+          <path className="ribbon-branch" d="M596 282 C620 280 630 272 660 272" />
+          <path className="ribbon-branch" d="M589 364 C630 370 620 460 660 460" />
+          <path className="ribbon-branch" d="M540 447 C610 495 570 657 640 657" />
           <circle className="network-node" cx="640" cy="85" r="13" />
           <circle className="network-node" cx="660" cy="272" r="13" />
-          <circle className="network-node" cx="670" cy="460" r="13" />
+          <circle className="network-node" cx="660" cy="460" r="13" />
           <circle className="network-node" cx="640" cy="657" r="13" />
         </g>
         <g className="network-mobile">
-          <path className="ribbon-branch" d="M450 250 C535 250 490 95 550 95" />
-          <path className="ribbon-branch" d="M480 325 C530 325 520 270 570 270" />
-          <path className="ribbon-branch" d="M470 330 C550 330 510 458 580 458" />
-          <path className="ribbon-branch" d="M440 340 C555 390 485 655 550 655" />
+          <path className="ribbon-branch" d="M490 187 C550 175 505 95 550 95" />
+          <path className="ribbon-branch" d="M503 229 C540 229 535 270 570 270" />
+          <path className="ribbon-branch" d="M472 271 C535 295 515 458 570 458" />
+          <path className="ribbon-branch" d="M430 291 C540 325 480 655 550 655" />
           <circle className="network-node" cx="550" cy="95" r="13" />
           <circle className="network-node" cx="570" cy="270" r="13" />
-          <circle className="network-node" cx="580" cy="458" r="13" />
+          <circle className="network-node" cx="570" cy="458" r="13" />
           <circle className="network-node" cx="550" cy="655" r="13" />
         </g>
       </svg>
