@@ -71,16 +71,6 @@ function HeroNetwork() {
           <circle className="network-node" cx="660" cy="460" r="13" />
           <circle className="network-node" cx="640" cy="657" r="13" />
         </g>
-        <g className="network-mobile">
-          <path className="ribbon-branch" d="M490 187 C550 175 505 95 550 95" />
-          <path className="ribbon-branch" d="M503 229 C540 229 535 270 570 270" />
-          <path className="ribbon-branch" d="M472 271 C535 295 515 458 570 458" />
-          <path className="ribbon-branch" d="M430 291 C540 325 480 655 550 655" />
-          <circle className="network-node" cx="550" cy="95" r="13" />
-          <circle className="network-node" cx="570" cy="270" r="13" />
-          <circle className="network-node" cx="570" cy="458" r="13" />
-          <circle className="network-node" cx="550" cy="655" r="13" />
-        </g>
       </svg>
 
       {solutions.map(({ className, icon: Icon, title, description }) => (
@@ -93,6 +83,14 @@ function HeroNetwork() {
         </div>
       ))}
     </div>
+  );
+}
+
+function MobileHeroSolutions() {
+  return (
+    <ul className="hero-mobile-solutions" aria-label="Soluções da While Dreams">
+      {solutions.map(({ title }) => <li key={title}>{title}</li>)}
+    </ul>
   );
 }
 
@@ -140,6 +138,7 @@ export default function Home() {
         </div>
 
         <HeroNetwork />
+        <MobileHeroSolutions />
       </section>
       <SolutionsSection />
       <ProcessSection />
