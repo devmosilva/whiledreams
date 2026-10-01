@@ -18,7 +18,7 @@ The approved visual world is **Loop Essencial**. A luminous off-white surface, d
 
 ## Composition
 
-The first viewport pairs monumental copy with the official loop symbol branching into Sites, Sistemas, Automação and IA aplicada. Below the fold, the same continuous-system idea should connect problems, process, examples and conversion without falling back to a repeated grid of generic cards.
+The first viewport pairs prominent copy and two CTAs with a panoramic ribbon across the lower half. The official loop symbol anchors the ribbon between four numbered service stations: Sites, Sistemas, Automação and IA aplicada. On narrow screens, the stations become a compact list. Below the fold, the same continuous-system idea connects problems, process, examples and conversion.
 
 ## Interaction
 
@@ -31,7 +31,7 @@ The first viewport pairs monumental copy with the official loop symbol branching
 
 - `logo/while-dreams-simbolo-transparente.png`: supplied by the project owner on 2026-09-30; official transparent brand symbol used in the hero and header.
 - `logo/while-dreams-perfil.png`: supplied by the project owner on 2026-09-30; approved profile/social variant, not currently rendered on the page.
-- `.impeccable/mocks/loop-essential-a.webp`: generated during the Impeccable direction process; composition reference only, not shipped as page content.
+- `.impeccable/mocks/loop-essential-c.webp`: approved panoramic composition reference; not shipped as page content.
+- `.impeccable/mocks/loop-essential-a.webp`: previously approved branching composition, retained as design history.
 
 Text, controls and service labels remain semantic HTML. The official raster is used only for the brand mark itself.
-

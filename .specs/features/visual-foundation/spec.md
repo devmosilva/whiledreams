@@ -42,7 +42,7 @@ O hero existente comunica a oferta, mas a curva vetorial criada para representar
 | Requirement ID | Requirement | Status |
 | --- | --- | --- |
 | HERO-01 | Conteúdo e CTAs da primeira dobra | Verified |
-| HERO-02 | Símbolo oficial e ramificações | Verified |
+| HERO-02 | Símbolo oficial e fita com quatro estações | Verified |
 | HERO-03 | Layout responsivo sem overflow | Verified |
 | HERO-04 | Acessibilidade básica e movimento reduzido | Verified |
 

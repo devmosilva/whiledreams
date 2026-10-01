@@ -17,11 +17,11 @@ Mode: Persuade. A landing page para pequenas e médias empresas que precisam tra
 
 **STORY:** O visitante entende a promessa, reconhece quatro caminhos de solução, associa cada um a problemas reais, vê como a empresa conduz o trabalho e encontra exemplos do que ela cria. A narrativa termina em um convite direto para contar a ideia ou chamar no WhatsApp.
 
-**FIRST VIEWPORT:** Navegação fina no topo. Headline monumental ocupa a metade esquerda com CTAs logo abaixo. O símbolo da `logo_02` domina o centro-direita e se prolonga em quatro ramificações rotuladas Sites, Sistemas, Automação e IA aplicada. A ação principal fica no topo direito e se repete sob a mensagem.
+**FIRST VIEWPORT:** Navegação fina no topo. Headline ampla ocupa a área superior esquerda com CTAs logo abaixo. Uma fita panorâmica atravessa a metade inferior, com o símbolo oficial ao centro e quatro estações numeradas para Sites, Sistemas, Automação e IA aplicada. A ação principal fica no topo direito e se repete sob a mensagem.
 
 **FORM:** Loop Essencial, direção adicional solicitada pelo usuário após a sétima direção atribuída pelo seed `52cbb4f7`. O momento memorável é o símbolo se desdobrando em uma arquitetura modular que explica a oferta sem depender de ilustração genérica.
 
-**APPROVED COMP:** `.impeccable/mocks/loop-essential-a.webp`. A estrutura aprovada mantém headline e CTAs à esquerda e o símbolo da marca ramificado nas quatro soluções à direita. O gradiente tipográfico é traduzido com texto semântico; nenhuma tipografia, controle ou rótulo será rasterizado.
+**APPROVED COMP:** `.impeccable/mocks/loop-essential-c.webp`. A estrutura aprovada mantém headline e CTAs à esquerda e a fita horizontal com quatro soluções abaixo. O símbolo oficial permanece como único asset rasterizado; tipografia, controles, linha e rótulos são implementados em HTML e SVG.
 
 **FINISH:** unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
 

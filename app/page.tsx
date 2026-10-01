@@ -1,4 +1,4 @@
-import { ArrowRight, Database, PanelsTopLeft, Settings, Sparkles } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import { BrandLogo } from "@/components/brand-logo";
 import { AboutSection } from "@/components/about-section";
@@ -11,77 +11,58 @@ import brandSymbol from "@/logo/while-dreams-simbolo-transparente.png";
 
 const solutions = [
   {
-    className: "solution-sites",
-    icon: PanelsTopLeft,
+    number: "01",
     title: "Sites",
-    description: "Presença que gera resultados",
+    description: "Presença que gera oportunidades",
   },
   {
-    className: "solution-systems",
-    icon: Database,
+    number: "02",
     title: "Sistemas",
-    description: "Soluções feitas para o seu negócio",
+    description: "Soluções sob medida",
   },
   {
-    className: "solution-automation",
-    icon: Settings,
+    number: "03",
     title: "Automação",
     description: "Processos que trabalham por você",
   },
   {
-    className: "solution-ai",
-    icon: Sparkles,
+    number: "04",
     title: "IA aplicada",
     description: "Inteligência para decisões reais",
   },
 ];
 
-function HeroNetwork() {
+function HeroTimeline() {
   return (
-    <div className="hero-network" aria-label="Soluções conectadas da While Dreams">
-      <div className="hero-symbol-frame" aria-hidden="true">
-        <Image
-          className="hero-symbol"
-          src={brandSymbol}
-          alt=""
-          priority
-          sizes="(max-width: 760px) 88vw, 42vw"
-        />
-      </div>
+    <div className="hero-timeline">
       <svg
-        className="hero-network-lines"
-        viewBox="0 0 1000 720"
+        className="hero-timeline-line"
+        viewBox="0 0 1672 160"
         preserveAspectRatio="none"
         aria-hidden="true"
       >
         <defs>
-          <linearGradient id="ribbon-gradient" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0" stopColor="#7655f2" />
-            <stop offset="0.47" stopColor="#6554ee" />
-            <stop offset="1" stopColor="#3428bd" />
+          <linearGradient id="timeline-gradient" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0" stopColor="#7466fa" />
+            <stop offset="0.5" stopColor="#5547e4" />
+            <stop offset="1" stopColor="#7466fa" />
           </linearGradient>
         </defs>
-        <g className="network-desktop">
-          <path className="ribbon-branch" d="M571 199 C615 175 590 85 640 85" />
-          <path className="ribbon-branch" d="M596 282 C620 280 630 272 660 272" />
-          <path className="ribbon-branch" d="M589 364 C630 370 620 460 660 460" />
-          <path className="ribbon-branch" d="M540 447 C610 495 570 657 640 657" />
-          <circle className="network-node" cx="640" cy="85" r="13" />
-          <circle className="network-node" cx="660" cy="272" r="13" />
-          <circle className="network-node" cx="660" cy="460" r="13" />
-          <circle className="network-node" cx="640" cy="657" r="13" />
-        </g>
+        <path d="M0 84 H162 C218 84 231 48 289 48 H416 C474 48 484 84 548 84 H1112 C1174 84 1190 48 1245 48 H1340 C1399 48 1411 84 1478 84 H1672" />
       </svg>
-
-      {solutions.map(({ className, icon: Icon, title, description }) => (
-        <div className={`solution-label ${className}`} key={title}>
-          <Icon aria-hidden="true" size={34} strokeWidth={1.8} />
-          <span>
+      <div className="hero-timeline-symbol" aria-hidden="true">
+        <Image src={brandSymbol} alt="" priority sizes="(max-width: 1100px) 30vw, 25vw" />
+      </div>
+      <ol className="hero-timeline-stations" aria-label="Soluções conectadas da While Dreams">
+        {solutions.map(({ number, title, description }) => (
+          <li key={title}>
+            <span className="hero-timeline-node" aria-hidden="true" />
+            <span className="hero-timeline-number">{number}</span>
             <strong>{title}</strong>
-            <small>{description}</small>
-          </span>
-        </div>
-      ))}
+            <span className="hero-timeline-description">{description}</span>
+          </li>
+        ))}
+      </ol>
     </div>
   );
 }
@@ -132,12 +113,9 @@ export default function Home() {
               Conheça nossas soluções <ArrowRight aria-hidden="true" size={20} />
             </a>
           </div>
-          <p className="hero-proof" aria-label="Estratégia, produto e tecnologia">
-            <span>Estratégia</span><i /> <span>Produto</span><i /> <span>Tecnologia</span>
-          </p>
         </div>
 
-        <HeroNetwork />
+        <HeroTimeline />
         <MobileHeroSolutions />
       </section>
       <SolutionsSection />
